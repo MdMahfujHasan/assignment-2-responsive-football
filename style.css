@@ -44,6 +44,15 @@ p{
     width: 556px;
     height: 438px;
 }
+.top-section img:hover{
+    transform: rotate(5deg);
+    transition: 0.8s ease-out 0.01s;
+}
+.top-section a:hover{
+    color: #E02C6D;
+    font-weight: 700;
+    background-color: white;
+}
 .blogs-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
