@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(240, 240, 240);
+}
+nav{
+    background-color: blue;
+}
+.nav-highlight{
+    text-decoration: none;
+    color: white;
+}
+.top-section{
+    background-color: blue;
+    margin-top: -53px;
+}
+.top-section h1{
+    width: 485px;
+    height: 230px;
+    color: white;
+    font-size: 64px;
+}
+.link-highlight{
+    width: 168px;
+    height: 44px;
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.top-section img{
+    width: 556px;
+    height: 438px;
+}
+.blogs-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-row-gap: 27px;
+    margin-right: 231px;
+    margin-left: 160px;
+}
+.blog{
+    height: 459px;
+    width: 330px;
+    background-color: white;
+    padding-top: 15px;
+}
+.blog img{
+    height: 260px;
+    width: 300px;
+    margin-left: 15px;
+}
+.player-info{
+    margin-left: 15px;
+}
