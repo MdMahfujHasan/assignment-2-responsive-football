@@ -1,8 +1,10 @@
 body{
+    /* google font */
     font-family: 'Roboto Slab', serif;
     background-color: rgb(240, 240, 240);
     margin: 0;
 }
+/* top navigation */
 nav{
     background-color: blue;
     padding-top: 42px;
@@ -20,6 +22,7 @@ nav a:hover{
     color: white;
     margin-left: 70px;
 }
+/* header section */
 .top-section{
     background-color: blue;
     padding-top: 70px;
@@ -57,6 +60,7 @@ p{
     font-weight: 700;
     background-color: white;
 }
+/* player blogs section */
 .blogs-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -79,6 +83,7 @@ p{
 .player-info{
     margin-left: 15px;
 }
+/* all highlights section */
 .bottom-section{
     display: flex;
     margin-top: 165px;
@@ -103,6 +108,7 @@ p{
 .match-highlight{
     margin-left: 125px;
 }
+/* 2 flex div section */
 .team-container{
     display: flex;
     padding: 20px;
@@ -141,6 +147,7 @@ p{
 #blue-color{
     color: blue;
 }
+/* embedded youtube video section */
 .video-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -154,6 +161,7 @@ iframe{
     box-shadow: 20px 20px 20px rgb(75, 75, 75);
     border-radius: 50px;
 }
+/* footer */
 footer{
     width: 483px;
     height: 213px;
