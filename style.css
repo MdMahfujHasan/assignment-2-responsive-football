@@ -108,7 +108,7 @@ p{
     padding: 20px;
     margin-bottom: 50px;
 }
-#select-team{
+.text-align{
     text-align: center;
 }
 .team-container img{
@@ -140,6 +140,19 @@ p{
 }
 #blue-color{
     color: blue;
+}
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+iframe{
+    height: 250px;
+    width: 450px;
+    box-shadow: 20px 20px 20px rgb(75, 75, 75);
+    border-radius: 50px;
 }
 footer{
     width: 483px;
@@ -232,6 +245,19 @@ footer img{
         width: 400px;
         margin-left: 0;
     }
+    .video-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    iframe{
+        height: 200px;
+        width: 400px;
+        box-shadow: 20px 20px 20px rgb(75, 75, 75);
+        border-radius: 50px;
+    }
     .red-team{
         margin-bottom: 20px;
     }
@@ -295,9 +321,22 @@ footer img{
         grid-template-columns: repeat(2, 1fr);
     }
     .team-container img{
-        height: 200px;
-        width: 350px;
+        height: 250px;
+        width: 400px;
         margin-left: 0;
+    }
+    .video-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    iframe{
+        height: 200px;
+        width: 400px;
+        box-shadow: 20px 20px 20px rgb(75, 75, 75);
+        border-radius: 50px;
     }
     footer{
         display: flex;
@@ -322,6 +361,19 @@ footer img{
         height: 200px;
         width: 350px;
         margin-left: 0;
+    }
+    .video-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    iframe{
+        height: 200px;
+        width: 400px;
+        box-shadow: 20px 20px 20px rgb(75, 75, 75);
+        border-radius: 50px;
     }
     footer{
         display: flex;
