@@ -123,8 +123,12 @@ p{
     margin-left: 100px;
 }
 .red-team, .blue-team{
-    box-shadow: 20px 20px 20px gray;
+    box-shadow: 10px 10px 50px gray;
     border-radius: 20px;
+    width: 50%;
+}
+.blue-team{
+    margin-left: 25px;
 }
 .team-details{
     text-align: center;
@@ -156,10 +160,10 @@ p{
     margin-bottom: 100px;
 }
 iframe{
-    height: 250px;
-    width: 450px;
+    height: 300px;
+    width: 500px;
     box-shadow: 20px 20px 20px rgb(75, 75, 75);
-    border-radius: 50px;
+    border-radius: 10px;
 }
 /* footer */
 footer{
