@@ -381,11 +381,9 @@ footer img{
         height: 200px;
         width: 400px;
         box-shadow: 20px 20px 20px rgb(75, 75, 75);
-        border-radius: 50px;
     }
     footer{
         display: flex;
         margin-left: 300px;
     }
 }
-/* add comments... */
